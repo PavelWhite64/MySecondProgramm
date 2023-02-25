@@ -1,17 +1,17 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        int Score = 100;
-        int Amoun = 1100;
-        int Bonus;
-        if (Amoun > 1000) {
-            Bonus = Amoun / 100;
+        int score = 100;
+        int amoun = 1100;
+        int bonus;
+        if (amoun > 1000) {
+            bonus = amoun / 100;
         } else {
-            Bonus = 0;
+            bonus = 0;
         }
-        int finishScore = Score + Amoun + Bonus;
+        int finishScore = score + amoun + bonus;
 
-        System.out.println("Пополнение счета составило " + Amoun);
-        System.out.println("Бонусные баллы = " + Bonus);
+        System.out.println("Пополнение счета составило " + amoun);
+        System.out.println("Бонусные баллы = " + bonus);
         System.out.println("Баланс = " + finishScore);
 
 
